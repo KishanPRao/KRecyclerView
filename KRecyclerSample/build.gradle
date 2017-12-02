@@ -26,6 +26,14 @@ android {
 }
 
 dependencies {
+	def kotlin_version = '1.2.0'
+	def support_version = '26.1.0'
+	def timber_version = '4.5.1'
+	def junit_version = '4.12'
+	def espresso_version = '3.0.1'
+	def constraintlayout_version = '1.0.2'
+	def testrunner_version = '1.0.1'
+	
 	implementation fileTree(include: ['*.jar'], dir: 'libs')
 	implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 	implementation "com.android.support:appcompat-v7:$support_version"
