@@ -31,13 +31,13 @@ class RecyclerAdapter : KRecyclerAdapter {
 		val fg = FrameLayout(parent.context)
 		
 		val fgText = TextView(parent.context)
-		fgText.setBackgroundColor(Color.GRAY)
-		fgText.setTextColor(Color.BLUE)
+		fgText.setBackgroundColor(Color.DKGRAY)
+		fgText.setTextColor(Color.WHITE)
 		fgText.gravity = Gravity.CENTER
 		fg.addView(fgText, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 300))
 		
 		val drag = View(parent.context)
-		drag.setBackgroundColor(Color.YELLOW)
+		drag.setBackgroundResource(R.drawable.drag_handle)
 		val params = FrameLayout.LayoutParams(200, 200)
 		params.gravity = Gravity.CENTER_VERTICAL
 		fg.addView(drag, params)
