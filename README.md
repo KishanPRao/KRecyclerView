@@ -1,6 +1,6 @@
 # KRecyclerView
 
-An Android library for controlling performing drag & drop, left & right swipe on RecyclerView items.
+An Android library for performing drag & drop, left & right swipe on RecyclerView items.
 
 ## Contents
 - **KRecycler**: The library responsible for handling the various actions.
